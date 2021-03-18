@@ -12,7 +12,7 @@
     </head>
     <body class="antialiased">
         <div id="app">
-            <app></app>
+            <front-page></front-page>
         </div>
 
         <script src="{{ mix('js/app.js') }}"></script>

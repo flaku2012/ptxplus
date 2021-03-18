@@ -1,11 +1,9 @@
 require('./bootstrap');
 
-import Vue from 'vue';
+window.Vue = require('vue');
 
-import App from './views/app.vue';
-
+vue.component('front-page',require('./componentes/Front.vue').default);
 
 const app = new Vue({
     el: '#app',
-    components: { App }
 });
